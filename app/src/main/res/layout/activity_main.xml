@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/tec"
+        android:textAlignment="center"
+        android:textColor="#D6850D"
+        android:textSize="18sp"
+        android:translationX="310dp" />
+
+    <TextView
+        android:id="@+id/Pactual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Posición(Ubicación) Actual:"
+        android:textColor="#050505"
+        android:textSize="15sp"
+        android:translationY="-30dp" />
+
+    <TextView
+        android:id="@+id/Estasen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Estás en:"
+        android:translationY="-30dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/txtBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="15dp"
+        android:translationY="-30dp"
+        android:hint="Nombre de la ubicación" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:translationY="-30dp"
+        android:text="BUSCAR "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TVBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:translationY="-30dp"
+        android:padding="5dp"
+        android:text=""
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:translationY="-30dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TVUbicaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ubicaciones:"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

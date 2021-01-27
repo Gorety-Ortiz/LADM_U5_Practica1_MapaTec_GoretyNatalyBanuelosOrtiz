@@ -1,0 +1,84 @@
+{
+  "project_info": {
+    "project_number": "912138887529",
+    "project_id": "mapatec-37586",
+    "storage_bucket": "mapatec-37586.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912138887529:android:8fe00f651f5a0658349df8",
+        "android_client_info": {
+          "package_name": "mx.tecnm.tepic.ladm_u5_practica1_mapatec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912138887529-b687513re8etqjsdijeh18nqqaat0pll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.tecnm.tepic.ladm_u5_practica1_mapatec",
+            "certificate_hash": "49fa98c192e1bd1c62d080c0ca11fa61d51f49f8"
+          }
+        },
+        {
+          "client_id": "912138887529-lianpdbqqq5hqj73vv31b9rc591q5nlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKQ3JXnKmMgo7tLMdDZbtwOmw3zDqyHuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912138887529-lianpdbqqq5hqj73vv31b9rc591q5nlc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912138887529:android:20906ea80fa9ed7f349df8",
+        "android_client_info": {
+          "package_name": "mx.tecnm.tepic.ladm_u5_practica1_mapatec2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912138887529-4fqn1achbqllqg66vo6fvppjfq3g12ou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.tecnm.tepic.ladm_u5_practica1_mapatec2",
+            "certificate_hash": "49fa98c192e1bd1c62d080c0ca11fa61d51f49f8"
+          }
+        },
+        {
+          "client_id": "912138887529-lianpdbqqq5hqj73vv31b9rc591q5nlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKQ3JXnKmMgo7tLMdDZbtwOmw3zDqyHuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912138887529-lianpdbqqq5hqj73vv31b9rc591q5nlc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
